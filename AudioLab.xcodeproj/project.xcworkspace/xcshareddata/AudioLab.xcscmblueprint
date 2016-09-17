@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B3495BCDB17A80A5FD7500C8DB6CF1595D45E7CD",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2E2B7457FBD94BA65C9E03736A08E8A21588CF20",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "8780FD747BAAD87235DD1823CAC5172FC5DCAEE7" : 0,
-    "B3495BCDB17A80A5FD7500C8DB6CF1595D45E7CD" : 0
+    "B3495BCDB17A80A5FD7500C8DB6CF1595D45E7CD" : 0,
+    "2E2B7457FBD94BA65C9E03736A08E8A21588CF20" : 0,
+    "8780FD747BAAD87235DD1823CAC5172FC5DCAEE7" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF39B4A4-E39A-418E-879A-E8C4EC371973",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "8780FD747BAAD87235DD1823CAC5172FC5DCAEE7" : "AudioLab\/AudioDSPUtils\/",
-    "B3495BCDB17A80A5FD7500C8DB6CF1595D45E7CD" : "AudioLab\/"
+    "B3495BCDB17A80A5FD7500C8DB6CF1595D45E7CD" : "AudioLab\/",
+    "2E2B7457FBD94BA65C9E03736A08E8A21588CF20" : "CSE5323Assignment2\/",
+    "8780FD747BAAD87235DD1823CAC5172FC5DCAEE7" : "AudioLab\/AudioDSPUtils\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "AudioLab",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AudioLab.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Toosick\/CSE5323Assignment2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E2B7457FBD94BA65C9E03736A08E8A21588CF20"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SMU-MSLC-2016\/AudioDSPUtils",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

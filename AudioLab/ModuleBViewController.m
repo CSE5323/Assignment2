@@ -1,12 +1,4 @@
-//
-//  ViewController.m
-//  AudioLab
-//
-//  Created by Eric Larson
-//  Copyright © 2016 Eric Larson. All rights reserved.
-//
-
-#import "ViewController.h"
+#import "ModuleBViewController.h"
 #import "Novocaine.h"
 #import "CircularBuffer.h"
 #import "SMUGraphHelper.h"
@@ -15,7 +7,7 @@
 #define BUFFER_SIZE 2000*4
 #define EQUALIZER_SIZE 20
 
-@interface ViewController ()
+@interface ModuleBViewController ()
 @property (strong, nonatomic) Novocaine *audioManager;
 @property (strong, nonatomic) CircularBuffer *buffer;
 @property (strong, nonatomic) SMUGraphHelper *graphHelper;
@@ -24,7 +16,7 @@
 
 
 
-@implementation ViewController
+@implementation ModuleBViewController
 
 #pragma mark Lazy Instantiation
 -(Novocaine*)audioManager{
@@ -70,7 +62,7 @@
     [self.graphHelper setFullScreenBounds];
     self.edgesForExtendedLayout =  NO;
     
-    __block ViewController * __weak  weakSelf = self;
+    __block ModuleBViewController * __weak  weakSelf = self;
     [self.audioManager setInputBlock:^(float *data, UInt32 numFrames, UInt32 numChannels){
         [weakSelf.buffer addNewFloatData:data withNumSamples:numFrames];
     }];
@@ -136,7 +128,7 @@
                      forGraphIndex:2
                  withNormalization:64.0
                      withZeroValue:-60];
-
+    
     // update the graph
     [self.graphHelper update];
     

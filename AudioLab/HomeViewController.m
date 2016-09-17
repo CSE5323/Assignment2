@@ -28,14 +28,17 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 2;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"audioGraph" forIndexPath:indexPath];
-    
-    cell.textLabel.text = @"Graph audio";
+    UITableViewCell *cell;
+    if(indexPath.row == 0){
+        cell = [tableView dequeueReusableCellWithIdentifier:@"moduleA" forIndexPath:indexPath];
+    }else{
+        cell = [tableView dequeueReusableCellWithIdentifier:@"moduleB" forIndexPath:indexPath];
+    }
     return cell;
 }
 

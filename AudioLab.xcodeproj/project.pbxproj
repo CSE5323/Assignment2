@@ -10,7 +10,7 @@
 		AEB0BDB31D875A8C00BCEE15 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB0BDB21D875A8C00BCEE15 /* HomeViewController.m */; };
 		B6BD9E1F1D6E384A0009AB3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E1E1D6E384A0009AB3F /* main.m */; };
 		B6BD9E221D6E384A0009AB3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E211D6E384A0009AB3F /* AppDelegate.m */; };
-		B6BD9E251D6E384A0009AB3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E241D6E384A0009AB3F /* ViewController.m */; };
+		B6BD9E251D6E384A0009AB3F /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E241D6E384A0009AB3F /* ModuleAViewController.m */; };
 		B6BD9E281D6E384A0009AB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E261D6E384A0009AB3F /* Main.storyboard */; };
 		B6BD9E2A1D6E384A0009AB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E291D6E384A0009AB3F /* Assets.xcassets */; };
 		B6BD9E2D1D6E384A0009AB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E2B1D6E384A0009AB3F /* LaunchScreen.storyboard */; };
@@ -21,6 +21,7 @@
 		B6BD9E5B1D6E46790009AB3F /* satisfaction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E5A1D6E46790009AB3F /* satisfaction.mp3 */; };
 		B6BD9E5E1D6E59880009AB3F /* SMUGraphHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E5D1D6E59880009AB3F /* SMUGraphHelper.m */; };
 		B6BD9E641D6F4BA90009AB3F /* FFTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E631D6F4BA90009AB3F /* FFTHelper.m */; };
+		C21592D21D8E0519003BE1C8 /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,8 @@
 		B6BD9E1E1D6E384A0009AB3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6BD9E201D6E384A0009AB3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6BD9E211D6E384A0009AB3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6BD9E231D6E384A0009AB3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6BD9E241D6E384A0009AB3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6BD9E231D6E384A0009AB3F /* ModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		B6BD9E241D6E384A0009AB3F /* ModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
 		B6BD9E271D6E384A0009AB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6BD9E291D6E384A0009AB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6BD9E2C1D6E384A0009AB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +69,8 @@
 		B6BD9E5D1D6E59880009AB3F /* SMUGraphHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUGraphHelper.m; sourceTree = "<group>"; };
 		B6BD9E621D6F4BA90009AB3F /* FFTHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFTHelper.h; path = AudioDSPUtils/FFTHelper.h; sourceTree = "<group>"; };
 		B6BD9E631D6F4BA90009AB3F /* FFTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFTHelper.m; path = AudioDSPUtils/FFTHelper.m; sourceTree = "<group>"; };
+		C21592D01D8E0519003BE1C8 /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
+		C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +126,11 @@
 				AEB0BDB21D875A8C00BCEE15 /* HomeViewController.m */,
 				B6BD9E201D6E384A0009AB3F /* AppDelegate.h */,
 				B6BD9E211D6E384A0009AB3F /* AppDelegate.m */,
-				B6BD9E231D6E384A0009AB3F /* ViewController.h */,
-				B6BD9E241D6E384A0009AB3F /* ViewController.m */,
+				B6BD9E231D6E384A0009AB3F /* ModuleAViewController.h */,
+				B6BD9E241D6E384A0009AB3F /* ModuleAViewController.m */,
 				B6BD9E261D6E384A0009AB3F /* Main.storyboard */,
+				C21592D01D8E0519003BE1C8 /* ModuleBViewController.h */,
+				C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */,
 				B6BD9E291D6E384A0009AB3F /* Assets.xcassets */,
 				B6BD9E2B1D6E384A0009AB3F /* LaunchScreen.storyboard */,
 				B6BD9E2E1D6E384A0009AB3F /* Info.plist */,
@@ -309,10 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6BD9E5E1D6E59880009AB3F /* SMUGraphHelper.m in Sources */,
+				C21592D21D8E0519003BE1C8 /* ModuleBViewController.m in Sources */,
 				B6BD9E591D6E43140009AB3F /* CircularBuffer.m in Sources */,
 				B6BD9E641D6F4BA90009AB3F /* FFTHelper.m in Sources */,
 				B6BD9E531D6E398F0009AB3F /* Novocaine.m in Sources */,
-				B6BD9E251D6E384A0009AB3F /* ViewController.m in Sources */,
+				B6BD9E251D6E384A0009AB3F /* ModuleAViewController.m in Sources */,
 				B6BD9E221D6E384A0009AB3F /* AppDelegate.m in Sources */,
 				B6BD9E1F1D6E384A0009AB3F /* main.m in Sources */,
 				AEB0BDB31D875A8C00BCEE15 /* HomeViewController.m in Sources */,
