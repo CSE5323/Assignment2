@@ -3,6 +3,9 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,6 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" red="1" green="0.9995582573455245" blue="0.89479531098173937" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="moduleA" textLabel="vtJ-34-vAh" style="IBUITableViewCellStyleDefault" id="Zu0-u8-omi">
                                 <rect key="frame" x="0.0" y="119.5" width="375" height="44"/>
@@ -78,12 +82,68 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GLKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequency 1: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IJ-H1-mZ1">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequency 2: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbD-7j-5xt">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0Hz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1n-lQ-8Ib">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.88790064102564104" green="0.88790064102564104" blue="0.88790064102564104" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0Hz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWq-fe-W9b">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.88790064099999999" green="0.88790064099999999" blue="0.88790064099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="MzS-1D-15Z">
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.88790064099999999" green="0.88790064099999999" blue="0.88790064099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piano Note:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1N-LY-Vlv">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="1ge-Km-4lM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MzS-1D-15Z" firstAttribute="leading" secondItem="yWq-fe-W9b" secondAttribute="trailing" constant="88" id="6yr-1V-LDl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MzS-1D-15Z" secondAttribute="bottom" constant="38" id="B6T-pf-oEg"/>
+                            <constraint firstItem="C1N-LY-Vlv" firstAttribute="baseline" secondItem="6IJ-H1-mZ1" secondAttribute="baseline" id="K64-rz-BuV"/>
+                            <constraint firstItem="MzS-1D-15Z" firstAttribute="firstBaseline" secondItem="yWq-fe-W9b" secondAttribute="baseline" id="LjG-fO-C3X"/>
+                            <constraint firstItem="C1N-LY-Vlv" firstAttribute="baseline" secondItem="G1n-lQ-8Ib" secondAttribute="baseline" id="Nuu-ff-YFp"/>
+                            <constraint firstItem="6IJ-H1-mZ1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="O6Z-xI-njZ"/>
+                            <constraint firstItem="C1N-LY-Vlv" firstAttribute="leading" secondItem="MzS-1D-15Z" secondAttribute="leading" id="OVT-6G-vdU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="C1N-LY-Vlv" secondAttribute="bottom" constant="68" id="aom-3d-9OS"/>
+                            <constraint firstItem="C1N-LY-Vlv" firstAttribute="leading" secondItem="G1n-lQ-8Ib" secondAttribute="trailing" constant="88" id="d9Y-lZ-htj"/>
+                            <constraint firstItem="AbD-7j-5xt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="dAz-XE-0Sg"/>
+                            <constraint firstItem="MzS-1D-15Z" firstAttribute="firstBaseline" secondItem="AbD-7j-5xt" secondAttribute="baseline" id="idj-vz-tQB"/>
+                            <constraint firstItem="C1N-LY-Vlv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mkU-Zn-89O"/>
+                            <constraint firstItem="C1N-LY-Vlv" firstAttribute="trailing" secondItem="MzS-1D-15Z" secondAttribute="trailing" id="r9b-qV-MbD"/>
+                            <constraint firstItem="MzS-1D-15Z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="530" id="xpG-ci-CUz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayedFreq1" destination="G1n-lQ-8Ib" id="KXz-Lf-KB6"/>
+                        <outlet property="displayedFreq2" destination="yWq-fe-W9b" id="4tw-Zi-kyb"/>
+                        <outlet property="pianoNote" destination="MzS-1D-15Z" id="UmB-7y-alZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1468" y="305"/>
+            <point key="canvasLocation" x="1468" y="304.4977511244378"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hdd-7B-ZlS">
