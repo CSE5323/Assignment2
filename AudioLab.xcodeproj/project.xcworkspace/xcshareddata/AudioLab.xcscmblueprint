@@ -11,7 +11,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF39B4A4-E39A-418E-879A-E8C4EC371973",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "B3495BCDB17A80A5FD7500C8DB6CF1595D45E7CD" : "AudioLab\/",
-    "2E2B7457FBD94BA65C9E03736A08E8A21588CF20" : "CSE5323Assignment2\/",
+    "2E2B7457FBD94BA65C9E03736A08E8A21588CF20" : "Assignment2\/",
     "8780FD747BAAD87235DD1823CAC5172FC5DCAEE7" : "AudioLab\/AudioDSPUtils\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "AudioLab",

@@ -14,14 +14,14 @@
 		B6BD9E281D6E384A0009AB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E261D6E384A0009AB3F /* Main.storyboard */; };
 		B6BD9E2A1D6E384A0009AB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E291D6E384A0009AB3F /* Assets.xcassets */; };
 		B6BD9E2D1D6E384A0009AB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E2B1D6E384A0009AB3F /* LaunchScreen.storyboard */; };
-		B6BD9E381D6E384A0009AB3F /* AudioLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E371D6E384A0009AB3F /* AudioLabTests.m */; };
-		B6BD9E431D6E384A0009AB3F /* AudioLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E421D6E384A0009AB3F /* AudioLabUITests.m */; };
 		B6BD9E531D6E398F0009AB3F /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E521D6E398F0009AB3F /* Novocaine.m */; };
 		B6BD9E591D6E43140009AB3F /* CircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E581D6E43140009AB3F /* CircularBuffer.m */; };
 		B6BD9E5B1D6E46790009AB3F /* satisfaction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6BD9E5A1D6E46790009AB3F /* satisfaction.mp3 */; };
 		B6BD9E5E1D6E59880009AB3F /* SMUGraphHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E5D1D6E59880009AB3F /* SMUGraphHelper.m */; };
 		B6BD9E641D6F4BA90009AB3F /* FFTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E631D6F4BA90009AB3F /* FFTHelper.m */; };
 		C21592D21D8E0519003BE1C8 /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */; };
+		C278C2AC1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C278C2AB1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m */; };
+		C29208421D96559800CCB433 /* IndexMagnitudePair.m in Sources */ = {isa = PBXBuildFile; fileRef = C29208411D96559800CCB433 /* IndexMagnitudePair.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +55,7 @@
 		B6BD9E2C1D6E384A0009AB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6BD9E2E1D6E384A0009AB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BD9E331D6E384A0009AB3F /* AudioLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6BD9E371D6E384A0009AB3F /* AudioLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioLabTests.m; sourceTree = "<group>"; };
-		B6BD9E391D6E384A0009AB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BD9E3E1D6E384A0009AB3F /* AudioLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6BD9E421D6E384A0009AB3F /* AudioLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioLabUITests.m; sourceTree = "<group>"; };
-		B6BD9E441D6E384A0009AB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BD9E511D6E398F0009AB3F /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Novocaine.h; path = AudioDSPUtils/Novocaine.h; sourceTree = "<group>"; };
 		B6BD9E521D6E398F0009AB3F /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Novocaine.m; path = AudioDSPUtils/Novocaine.m; sourceTree = "<group>"; };
 		B6BD9E571D6E43140009AB3F /* CircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularBuffer.h; path = AudioDSPUtils/CircularBuffer.h; sourceTree = "<group>"; };
@@ -71,6 +67,10 @@
 		B6BD9E631D6F4BA90009AB3F /* FFTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFTHelper.m; path = AudioDSPUtils/FFTHelper.m; sourceTree = "<group>"; };
 		C21592D01D8E0519003BE1C8 /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
 		C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
+		C278C2AA1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		C278C2AB1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		C29208401D96559800CCB433 /* IndexMagnitudePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexMagnitudePair.h; sourceTree = "<group>"; };
+		C29208411D96559800CCB433 /* IndexMagnitudePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexMagnitudePair.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,6 @@
 			children = (
 				B6BD9E501D6E39660009AB3F /* DSPUtils */,
 				B6BD9E1C1D6E384A0009AB3F /* AudioLab */,
-				B6BD9E361D6E384A0009AB3F /* AudioLabTests */,
-				B6BD9E411D6E384A0009AB3F /* AudioLabUITests */,
 				B6BD9E1B1D6E384A0009AB3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,6 +129,10 @@
 				B6BD9E261D6E384A0009AB3F /* Main.storyboard */,
 				C21592D01D8E0519003BE1C8 /* ModuleBViewController.h */,
 				C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */,
+				C278C2AA1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.h */,
+				C278C2AB1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m */,
+				C29208401D96559800CCB433 /* IndexMagnitudePair.h */,
+				C29208411D96559800CCB433 /* IndexMagnitudePair.m */,
 				B6BD9E291D6E384A0009AB3F /* Assets.xcassets */,
 				B6BD9E2B1D6E384A0009AB3F /* LaunchScreen.storyboard */,
 				B6BD9E2E1D6E384A0009AB3F /* Info.plist */,
@@ -148,24 +150,6 @@
 				B6BD9E1E1D6E384A0009AB3F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B6BD9E361D6E384A0009AB3F /* AudioLabTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6BD9E371D6E384A0009AB3F /* AudioLabTests.m */,
-				B6BD9E391D6E384A0009AB3F /* Info.plist */,
-			);
-			path = AudioLabTests;
-			sourceTree = "<group>";
-		};
-		B6BD9E411D6E384A0009AB3F /* AudioLabUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6BD9E421D6E384A0009AB3F /* AudioLabUITests.m */,
-				B6BD9E441D6E384A0009AB3F /* Info.plist */,
-			);
-			path = AudioLabUITests;
 			sourceTree = "<group>";
 		};
 		B6BD9E501D6E39660009AB3F /* DSPUtils */ = {
@@ -248,7 +232,7 @@
 				TargetAttributes = {
 					B6BD9E191D6E384A0009AB3F = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = F69WJ27LN4;
+						DevelopmentTeam = 6B83F7C8RZ;
 					};
 					B6BD9E321D6E384A0009AB3F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -319,7 +303,9 @@
 				B6BD9E641D6F4BA90009AB3F /* FFTHelper.m in Sources */,
 				B6BD9E531D6E398F0009AB3F /* Novocaine.m in Sources */,
 				B6BD9E251D6E384A0009AB3F /* ModuleAViewController.m in Sources */,
+				C278C2AC1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m in Sources */,
 				B6BD9E221D6E384A0009AB3F /* AppDelegate.m in Sources */,
+				C29208421D96559800CCB433 /* IndexMagnitudePair.m in Sources */,
 				B6BD9E1F1D6E384A0009AB3F /* main.m in Sources */,
 				AEB0BDB31D875A8C00BCEE15 /* HomeViewController.m in Sources */,
 			);
@@ -329,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6BD9E381D6E384A0009AB3F /* AudioLabTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6BD9E431D6E384A0009AB3F /* AudioLabUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,10 +452,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = F69WJ27LN4;
+				DEVELOPMENT_TEAM = 6B83F7C8RZ;
 				INFOPLIST_FILE = AudioLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SMU.AudioLab.ICA2;
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.AudioLab.Assignment2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -483,10 +468,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = F69WJ27LN4;
+				DEVELOPMENT_TEAM = 6B83F7C8RZ;
 				INFOPLIST_FILE = AudioLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SMU.AudioLab.ICA2;
+				PRODUCT_BUNDLE_IDENTIFIER = SMU.AudioLab.Assignment2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
