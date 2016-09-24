@@ -20,8 +20,6 @@
 		B6BD9E5E1D6E59880009AB3F /* SMUGraphHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E5D1D6E59880009AB3F /* SMUGraphHelper.m */; };
 		B6BD9E641D6F4BA90009AB3F /* FFTHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD9E631D6F4BA90009AB3F /* FFTHelper.m */; };
 		C21592D21D8E0519003BE1C8 /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */; };
-		C278C2AC1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C278C2AB1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m */; };
-		C29208421D96559800CCB433 /* IndexMagnitudePair.m in Sources */ = {isa = PBXBuildFile; fileRef = C29208411D96559800CCB433 /* IndexMagnitudePair.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +65,6 @@
 		B6BD9E631D6F4BA90009AB3F /* FFTHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFTHelper.m; path = AudioDSPUtils/FFTHelper.m; sourceTree = "<group>"; };
 		C21592D01D8E0519003BE1C8 /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
 		C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
-		C278C2AA1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
-		C278C2AB1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
-		C29208401D96559800CCB433 /* IndexMagnitudePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexMagnitudePair.h; sourceTree = "<group>"; };
-		C29208411D96559800CCB433 /* IndexMagnitudePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexMagnitudePair.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +123,6 @@
 				B6BD9E261D6E384A0009AB3F /* Main.storyboard */,
 				C21592D01D8E0519003BE1C8 /* ModuleBViewController.h */,
 				C21592D11D8E0519003BE1C8 /* ModuleBViewController.m */,
-				C278C2AA1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.h */,
-				C278C2AB1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m */,
-				C29208401D96559800CCB433 /* IndexMagnitudePair.h */,
-				C29208411D96559800CCB433 /* IndexMagnitudePair.m */,
 				B6BD9E291D6E384A0009AB3F /* Assets.xcassets */,
 				B6BD9E2B1D6E384A0009AB3F /* LaunchScreen.storyboard */,
 				B6BD9E2E1D6E384A0009AB3F /* Info.plist */,
@@ -303,9 +293,7 @@
 				B6BD9E641D6F4BA90009AB3F /* FFTHelper.m in Sources */,
 				B6BD9E531D6E398F0009AB3F /* Novocaine.m in Sources */,
 				B6BD9E251D6E384A0009AB3F /* ModuleAViewController.m in Sources */,
-				C278C2AC1D96646A00E1E2FA /* NSMutableArray+QueueAdditions.m in Sources */,
 				B6BD9E221D6E384A0009AB3F /* AppDelegate.m in Sources */,
-				C29208421D96559800CCB433 /* IndexMagnitudePair.m in Sources */,
 				B6BD9E1F1D6E384A0009AB3F /* main.m in Sources */,
 				AEB0BDB31D875A8C00BCEE15 /* HomeViewController.m in Sources */,
 			);
